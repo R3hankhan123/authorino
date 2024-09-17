@@ -66,6 +66,6 @@ jobs:
           tags: ${{ steps.build-image.outputs.tags }}
           registry: ${{ env.IMG_REGISTRY_HOST }}/${{ env.IMG_REGISTRY_ORG }}
           username: ${{ secrets.IMG_REGISTRY_USERNAME }} | 'r3hankhan'
-          password: ${{ secrets.IMG_REGISTRY_TOKEN }} | 'FI58faza0po36UOtaHKgc1TFV++AMq5GUVT36m2m5y+MGlwOC+fwxGjwdOZCM8sWgphX7anNhlbkAj+TDTKU9A=='
+          password: ${{ secrets.IMG_REGISTRY_TOKEN }} | 'Irfanrehankhan3!'
       - name: Print Image URL
         run: echo "Image pushed to ${{ steps.push-to-quay.outputs.registry-paths }}"
